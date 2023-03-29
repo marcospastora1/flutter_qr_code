@@ -71,7 +71,7 @@ class GenerateQRCodeState extends State<GenerateQRCode> {
       "#ff6666", // Cor da tela do scanner
       "Cancelar", // Texto do botão de cancelar
       true, // Mostrar um flash na tela
-      ScanMode.BARCODE, // Tipo de código de barras a ser digitalizado
+      ScanMode.QR, // Tipo de código de barras a ser digitalizado
     );
 
     if (barcodeScanRes != '-1') {
